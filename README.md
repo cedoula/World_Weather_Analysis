@@ -8,14 +8,14 @@ This project will enhance the user interface  and functionalities of the PlanMyT
 3. create a travel itinerary map.
 
 ## Resources
-- Data Source: citipy.py, jupyter-gmaps, [OpenWeatherMap API](https://openweathermap.org/current), [Google Maps and Places API](https://developers.google.com/places/web-service/search), [Google Maps Directions API](https://developers.google.com/maps/documentation/directions/overview)
+- Data Source: [citipy](https://github.com/wingchen/citipy), [jupyter-gmaps](https://jupyter-gmaps.readthedocs.io/en/latest/), [OpenWeatherMap API](https://openweathermap.org/current), [Google Maps and Places API](https://developers.google.com/places/web-service/search), [Google Maps Directions API](https://developers.google.com/maps/documentation/directions/overview)
 - Software: Python 3.7.7, Anaconda Navigator 1.9.12, Conda 4.8.4, Jupyter Notebook 6.0.3
 
 ## Results
 
 ### Retrieve weather data
 The app uses the NumPy dependency to generate 2,000 sets of coordinates (latitude and longitude).\
-The Python's citipy module is then called to identify the nearest city for each coordinate combination.\
+The Python's [citipy](https://github.com/wingchen/citipy) module is then called to identify the nearest city for each coordinate combination.\
 The weather data is retrieved for all identified cities through a request to the [OpenWeatherMap API](https://openweathermap.org/current).
 
 <p align="center">
