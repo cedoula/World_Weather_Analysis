@@ -16,10 +16,10 @@ This project will enhance the user interface  and functionalities of the PlanMyT
 ### Retrieve weather data
 The app uses the NumPy dependency to generate 2,000 sets of coordinates (latitude and longitude).\
 The Python's citipy module is then called to identify the nearest city for each coordinate combination.\
-The weather data is retrieved for all identified cities through a request to the OpenWeatherMap API.
+The weather data is retrieved for all identified cities through a request to the [OpenWeatherMap API](https://openweathermap.org/current).
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/68669675/92261511-279c8000-ee9f-11ea-96ba-4dd4fe033049.png">
+  <img src="https://user-images.githubusercontent.com/68669675/92261511-279c8000-ee9f-11ea-96ba-4dd4fe033049.png"><br/>
   Example of weather data retrieval 
 </p>
 
